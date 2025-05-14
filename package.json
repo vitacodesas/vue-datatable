@@ -1,0 +1,30 @@
+{
+  "name": "vue-datatable",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "main": "dist/vue-datatable.umd.js",
+  "module": "dist/vue-datatable.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "bootstrap": "^5.3.5",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "sass-embedded": "^1.87.0",
+    "vite": "^6.3.3",
+    "vite-plugin-dts": "^4.5.3",
+    "vue": "^3.5.13"
+  }
+}
